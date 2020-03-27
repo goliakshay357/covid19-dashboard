@@ -26,6 +26,8 @@ import { MatSelectModule, MatFormFieldModule, MatInputModule } from '@angular/ma
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { Main1Component } from './components/main1/main1.component';
+import { Main2Component } from './components/main2/main2.component';
 
 
 
@@ -33,7 +35,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    Main1Component,
+    Main2Component
   ],
   imports: [
     BrowserModule,

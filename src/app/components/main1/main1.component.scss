@@ -1,0 +1,22 @@
+.tracker{
+  .live-tracking{
+    background: lightblue;
+    display: flex;
+    width: 100%;
+
+    .live-tracking-sub{
+      flex: 1;
+    }
+
+    .confirmed{
+      // background-color: red;
+    }
+
+  }
+
+
+  .main-plot{
+
+  }
+
+}
