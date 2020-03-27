@@ -1,15 +1,35 @@
 .tracker{
   .live-tracking{
-    background: lightblue;
+    // background: lightblue;
     display: flex;
     width: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 30px;
 
     .live-tracking-sub{
       flex: 1;
+      .heading{
+        font-weight: 800;
+        text-transform: uppercase;
+      }
     }
 
     .confirmed{
-      // background-color: red;
+      color: red;
+    }
+
+    .active{
+      color: blue;
+    }
+
+    .recovered{
+      color: green;
+    }
+
+    .death{
+      color: grey;
     }
 
   }

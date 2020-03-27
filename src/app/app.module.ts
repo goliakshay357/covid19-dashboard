@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 // All Services Here...
 import { AuthService } from './services/auth.service'
+import {DataService} from './services/data/data.service'
 
 // Firebase Modules...
 import { environment } from './../environments/environment';
@@ -19,7 +20,7 @@ import { environment } from './../environments/environment';
 // import { AngularFirestoreModule } from 'angularfire2/firestore';
 // import { AngularFireAuthModule } from 'angularfire2/auth';
 
-// Angular Material Modules.. 
+// Angular Material Modules..
 import { MatSelectModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 
 // Components
@@ -44,7 +45,7 @@ import { Main2Component } from './components/main2/main2.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     // AngularFireModule.initializeApp(environment.firebase),
-    // AngularFirestoreModule, 
+    // AngularFirestoreModule,
     // AngularFireAuthModule,
     HttpClientModule,
     HttpModule,
@@ -54,7 +55,7 @@ import { Main2Component } from './components/main2/main2.component';
     MatFormFieldModule,
     MatInputModule,
   ],
-  providers: [AuthService, MatSelectModule, MatInputModule, MatFormFieldModule],
+  providers: [AuthService, MatSelectModule, MatInputModule, MatFormFieldModule,DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
