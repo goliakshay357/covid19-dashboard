@@ -1,0 +1,71 @@
+/** font.scss
+    Contains commonly used mixins for typography  
+    -- Developed and Maintained by 
+    Sukor Consulting **/ 
+
+@import "helpers";
+$base-font-size: 16px;
+
+/// Given a font size in pixels, reproduces that font size in rems.
+/// @access public
+/// @param {Length} $size - Font size
+/// @example scss - Usage
+///   .foo {
+///     @include font-size(16px);
+///   }
+/// @example css - Result
+///   .foo {
+///     font-size: 16px;
+///     font-size: 1rem;
+///   }
+
+
+
+@mixin responsive-font($val){
+  @include font-size( $val - 2px);
+  
+  @include device ('tablet'){
+    @include font-size( $val - 1px);
+  }
+  @include device ('laptop'){
+    @include font-size( $val);
+  }
+  @include device ('desktop'){
+    @include font-size( $val + 1px);
+  }
+  @include device ('largedesktop'){
+    @include font-size( $val + 2px);
+  }
+}
+
+
+@mixin font-size($size) {
+  @if unitless($size) {
+    $size: $size * 1px;
+  }
+  font-size: $size;
+  font-size: ($size / $base-font-size) * 1rem;
+}
+
+
+
+
+
+
+
+/// Generates line-height values in both pixels and rems.
+/// @access public
+/// @param {Number} $height-value [12] - Height value
+/// @example scss - Usage
+///   .foo {
+///     @include line-height(16);
+///   }
+/// @example css - Result
+///   .foo {
+///     line-height: 16px;
+///     line-height: 1rem;
+///   }
+@mixin line-height($height-value: 12) {
+    line-height: $height-value * 1px; //fallback for old browsers
+    line-height: (1 / ($base-font-size / ($base-font-size * 0 + 1)) * $height-value * 1rem);
+}

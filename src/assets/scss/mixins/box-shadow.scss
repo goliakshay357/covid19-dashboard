@@ -1,0 +1,22 @@
+/** borders.scss
+    Contains commonly used mixins for borders and outlines  
+    -- Developed and Maintained by 
+    Sukor Consulting **/ 
+
+@import "helpers";
+
+
+
+
+@mixin box-shadow($top,$left,$blur,$color){
+    @include prefix(box-shadow, $top $left $blur $color, 'webkit' 'moz' 'ms' 'o');
+}
+
+@mixin fullsize-background($url){
+    background: url($url) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+

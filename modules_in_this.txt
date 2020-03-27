@@ -1,0 +1,10 @@
+Modules are availble in this Boiler Plate
+
+  --- Bootstrap v4.2
+  --- Jquery v3.3.1
+  --- firebase , angularFire2
+  --- Lodash
+  --- angular/@material
+  --- angular/Forms
+
+  --- FontAwesome in Assets

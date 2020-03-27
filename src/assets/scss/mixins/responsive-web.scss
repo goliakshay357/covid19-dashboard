@@ -1,0 +1,53 @@
+/** responsive-web.scss
+    Contains commonly used mixins for responsive web design  
+    -- Developed and Maintained by 
+    Sukor Consulting **/ 
+
+@import "helpers";
+
+
+
+
+
+@mixin responsive-margin($direction,$val){
+
+  margin-#{$direction} : $val - 4px; 
+  
+  @include device('tablet'){
+      margin-#{$direction}:$val - 2px; 
+  }
+  @include device('laptop'){
+      margin-#{$direction}:$val; 
+  }
+  @include device('desktop'){
+      margin-#{$direction}:$val + 5px; 
+  }
+  @include device('largedesktop'){
+      margin-#{$direction}:$val + 10px; 
+  }
+}
+
+
+@mixin responsive-padding($direction,$val){
+
+
+  padding-#{$direction}: $val - 4px;
+
+  @include device('tablet'){
+      padding-#{$direction}:$val - 2px;
+  }
+  @include device('laptop'){
+      padding-#{$direction}:$val; 
+  }
+  @include device('desktop'){
+      padding-#{$direction}:$val + 2px;
+  }
+  @include device('largedesktop'){
+      padding-#{$direction}:$val + 4px;
+  }
+}
+
+
+
+
+

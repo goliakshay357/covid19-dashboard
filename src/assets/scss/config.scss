@@ -1,0 +1,52 @@
+/** Config.scss
+    Contains configuration variables for projects
+    -- Developed and Maintained by Sukor Consulting **/
+
+
+///Break Points
+$breakpoints: (
+  'mobile'     : (min-width: 320px),
+  'android'    : (min-width: 360px),
+  'phablet'    : (min-width: 480px),
+  'lphablet'   : (min-width: 560px),
+  'tablet'     : (min-width: 768px),
+  'laptop'     : (min-width: 992px),
+  'largelaptop': (min-width: 1050px),
+  'desktop'    : (min-width: 1200px),
+  'largedesktop': (min-width:1280px),
+  'largescreen': (min-width: 1600px),
+  'tv'         : (min-width: 2000px),
+  'maxphablet' : (max-width: 479px),
+  'maxandroid' : (max-width: 359px)
+) !default;
+
+
+/// Mixin to manage responsive breakpoints
+/// @author Hugo Giraudel
+/// @param {String} $breakpoint - Breakpoint name
+/// @require $breakpoints
+@mixin device($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  }
+ 
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+
+
+
+
+$primary-color : #00ba58;
+$site-font-color : #000000;
+
+
+
