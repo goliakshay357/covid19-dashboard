@@ -11,17 +11,17 @@
     .live-tracking-sub{
       flex: 1;
       .heading{
-        font-weight: 800;
+        font-weight: 900;
         text-transform: uppercase;
       }
     }
 
     .confirmed{
-      color: red;
+      color: #301728FF;
     }
 
     .active{
-      color: blue;
+      color: #4F3466FF;
     }
 
     .recovered{
@@ -29,7 +29,7 @@
     }
 
     .death{
-      color: grey;
+      color: red;
     }
 
   }
@@ -39,4 +39,33 @@
 
   }
 
+}
+
+.heading1{
+  margin-top: 30px;
+  margin-left:8vw;
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+
+    span{
+      color: red;
+    }
+  }
+}
+
+.buttons{
+  margin-left: 8vw;
+}
+
+.head123{
+  .active{
+    color: red;
+}
+
+.normal{
+  background-color: white;
+   color: blue;
+}
 }

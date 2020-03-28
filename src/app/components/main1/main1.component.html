@@ -4,6 +4,8 @@
     <div class="live-tracking-sub confirmed text-center">
       <p class="heading">Confirmed cases</p>
       <p>{{confirmed}}</p>
+      <!-- <img src="../../../assets/img/demo.png" alt=""> -->
+
     </div>
     <div class="live-tracking-sub active text-center">
       <p class="heading">Active cases</p>
@@ -20,11 +22,30 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="main-plot">
-    <!-- d3js graph will be here -->
-    
-    lol
+<div id="mainchart" class="container-fluid">
+  <div class="heading1">
+    <div class="india" style="display: flex;">
+      <img src="../../../assets/img/india.png" height="30" alt="">
+      <p style="margin-left: 5px; margin-bottom: 0px;">INDIA</p>
+    </div>
+    <p><span>Coronavirus</span> Rising Trends:</p>
+  </div>
+  <ul id="myTabs" class="nav nav-pills nav-justified buttons head123" role="tablist" data-tabs="tabs">
+    <li class="active"><a href="#cumulative" data-toggle="tab" class="btn btn-primary" style="background-color: white; color: blue;">Cumulative</a></li>
+    <li style="margin-left: 5px"><a href="#dialy" data-toggle="tab" class="btn btn-primary" style="background-color: white; color: blue;">Daily Analysis</a></li>
+  </ul>
+
+  <div class="main-plot text-center">
+    <!-- chartjs graph will be here -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active show" id="cumulative">
+        <canvas id="myChart"  height="300" class="mx-auto" style="margin-top: 30px;"></canvas>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="dialy">
+        <canvas id="myChart2"  height="300" class="mx-auto" style="margin-top: 30px;"></canvas>
+      </div>
+    </div>
+
 </div>
 </div>
 </section>
