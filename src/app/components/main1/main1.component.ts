@@ -28,6 +28,7 @@ export class Main1Component implements OnInit {
     this.get_data()
 
 
+
   }
 
   get_data(){
@@ -67,8 +68,12 @@ export class Main1Component implements OnInit {
       // console.log(this.chart1_y_values_totalrecovered,"HAHAH");
     }
 
+    if(screen.width < 1200){
+      let scale = true
+      this.chartJS1(dailyconfirmed,dailydeceased,dailyrecovered,scale)
+    }
 
-    this.chartJS1(dailyconfirmed,dailydeceased,dailyrecovered)
+    this.chartJS1(dailyconfirmed,dailydeceased,dailyrecovered,false)
 
     }), err => {
       console.log("Error",err);
@@ -188,7 +193,7 @@ export class Main1Component implements OnInit {
 
 
 
-    chartJS1(confirmed,decreased,recovered){
+    chartJS1(confirmed,decreased,recovered,scale){
     console.log(screen.width);
     console.log("HAHAHAHAHAHAHAH",confirmed,decreased,recovered);
 
@@ -262,7 +267,9 @@ export class Main1Component implements OnInit {
               maxRotation: 80,
               minRotation: 80,
               autoSkip: true,
-              // maxTicksLimit: 100
+              // if(scale){
+              //   maxTicksLimit: 20
+              // }
           }
           }],
           yAxes: [{

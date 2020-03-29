@@ -17,7 +17,7 @@ import { environment } from './../environments/environment';
 
 // datatable
 // import {DataTablesModule} from 'angular-datatables';
-import { SuperTableModule } from 'ngx-super-table';
+// import { SuperTableModule } from 'ngx-super-table';
 
 // Enable if u want firebase ///
 // import { AngularFireModule } from 'angularfire2';
@@ -58,7 +58,6 @@ import { Main2Component } from './components/main2/main2.component';
     MatSelectModule,
     MatFormFieldModule,
     MatInputModule,
-    SuperTableModule
   ],
   providers: [AuthService, MatSelectModule, MatInputModule, MatFormFieldModule,DataService],
   bootstrap: [AppComponent]
