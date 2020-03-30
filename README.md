@@ -42,5 +42,5 @@
 <img src="src/assets/img/dashboard.png" alt="dashboard" width="880">
 
 
-This project main aim is to bring awarness about coronavirus and perform analysis regarding the COVID-19 epidemic.This dashboard updates with new data automatically with REST without requiring any expertise in front end development.
+This project main aim is to bring awarness about coronavirus and perform analysis regarding the COVID-19 epidemic.This dashboard updates with new data automatically with REST without requiring any expertise.
 
