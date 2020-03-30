@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/goliakshay357/covid19-dashboard">
-    <img src="src/assets/img/covidlogo.jpg" alt="Logo" width="80" height="80">
+    <img src="src/assets/img/covidlogo.jpg" alt="Logo">
   </a>
 
   <h3 align="center">Covid-19 Dashboard</h3>
