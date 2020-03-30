@@ -86,11 +86,11 @@ npm i
 * Daily notifications on state cases
 
 ## API info
-*https://api.covid19india.org/data.json <br>                
-*https://api.covid19india.org/state_district_wise.json<br> 
-*https://api.covid19india.org/travel_history.json      <br>
-*https://api.covid19india.org/raw_data.json            <br>
-Thanks to the Open Source community <3!<br>
+* https://api.covid19india.org/data.json                
+* https://api.covid19india.org/state_district_wise.json<br> 
+* https://api.covid19india.org/travel_history.json      <br>
+* https://api.covid19india.org/raw_data.json            <br>
+** Thanks to the Open Source community <3!<br> **
 Please request a email for key of Private API <br>
 
 
