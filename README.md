@@ -85,13 +85,7 @@ npm i
 * generate PWA to work in offline mode
 * Daily notifications on state cases
 
-## API info
-| https://api.covid19india.org/data.json                |
-| https://api.covid19india.org/state_district_wise.json |
-| https://api.covid19india.org/travel_history.json      |
-| https://api.covid19india.org/raw_data.json            |
-Thanks to the Open Source community!
-Please request a email for key of Private API 
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
