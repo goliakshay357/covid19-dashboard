@@ -43,4 +43,8 @@
 
 
 This project main aim is to bring awarness about coronavirus and perform analysis regarding the COVID-19 epidemic.This dashboard updates with new data automatically with REST without requiring any expertise.
+### Built With
+* [Angular](https://angular.io)
+* [ChartJS](https://chartjs.org)
+* [BrainJS](https://brain.js.org)
 
