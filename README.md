@@ -85,6 +85,14 @@ npm i
 * generate PWA to work in offline mode
 * Daily notifications on state cases
 
+## API info
+| https://api.covid19india.org/data.json                |
+| https://api.covid19india.org/state_district_wise.json |
+| https://api.covid19india.org/travel_history.json      |
+| https://api.covid19india.org/raw_data.json            |
+Thanks to the Open Source community!
+Please request a email for key of Private API 
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -98,6 +106,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- CONTACT -->
 ## Contact
-Name: Goli Akshay Sujith
+Name: Goli Akshay Sujith ([Website](goliakshay.ml))
+<br>
 Email: goliakshay357@gmail.com
-[@Webiste](goliakshay.ml)
+
