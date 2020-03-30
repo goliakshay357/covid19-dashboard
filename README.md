@@ -31,7 +31,6 @@
   * [Installation](#installation)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -82,6 +81,9 @@ npm i
 * Add choropleth map
 * Machine learning predictions using supervised modelling
 * Home page designs optimizations
+* Mobile responsive
+* generate PWA to work in offline mode
+* Daily notifications on state cases
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -93,3 +95,9 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+<!-- CONTACT -->
+## Contact
+Name: Goli Akshay Sujith
+Email: goliakshay357@gmail.com
+[@Webiste](goliakshay.ml)
