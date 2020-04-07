@@ -40,7 +40,7 @@
 <img src="src/assets/img/dashboard.png" alt="dashboard" width="880">
 
 
-This project main aim is to bring awarness about coronavirus and perform analysis regarding the COVID-19 epidemic.This dashboard updates with new data automatically with REST without requiring any expertise.
+This project main aim is to bring awareness about coronavirus and perform analysis regarding the COVID-19 epidemic.This dashboard updates with new data automatically with REST without requiring any expertise.
 ### Built With
 * [Angular](https://angular.io)
 * [ChartJS](https://chartjs.org)
@@ -84,6 +84,7 @@ npm i
 * Mobile responsive
 * generate PWA to work in offline mode
 * Daily notifications on state cases
+* Influence of news and media on COVID19 crisis
 
 ## API info
 Please request a email for key of Private API <br>
