@@ -12,8 +12,6 @@
     <a href="https://github.com/goliakshay357/covid19-dashboard"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://covid19-india2020.firebaseapp.com/">View Demo</a>
-    ·
     <a href="https://github.com/goliakshay357/covid19-dashboard/issues">Report Bug</a>
     ·
     <a href="https://github.com/goliakshay357/covid19-dashboard/issues">Request Feature</a>
