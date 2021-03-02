@@ -84,10 +84,6 @@ npm i
 * Daily notifications on state cases
 * Influence of news and media on COVID19 crisis
 
-## API info
-Please request a email for key of Private API <br>
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
