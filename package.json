@@ -33,7 +33,7 @@
     "lodash": "^4.17.11",
     "ngx-bootstrap": "^5.5.0",
     "ngx-super-table": "0.0.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.2.2",
     "zone.js": "~0.8.26"
